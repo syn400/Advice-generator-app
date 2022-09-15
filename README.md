@@ -5,5 +5,5 @@ Simple web application that is picking up random advice from API after clicking 
 https://advvice.netlify.app/
 
 ## Photos:
-![main-page1](design/mobile-design.jpg)
 ![main-page2](design/desktop-design.jpg)
+![main-page1](design/mobile-design.jpg)
