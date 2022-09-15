@@ -10,6 +10,83 @@
 
 body {
     font-family: 'Manrope', sans-serif;
-    // background-color: $neutral-dark-blue;
+    background-color: $neutral-dark-blue;
+    font-weight: 800;
 }
 
+div.attribution {
+    position: absolute;
+    bottom: 1rem;
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
+    text-align: center;
+    width: 50%;
+    color: $neutral-Grayish-blue;
+    line-height: 1rem;
+
+    a {
+        color: $neutral-blue;
+    }
+}
+
+#advice-container {
+    background-color: $neutral-Grayish-blue;
+    height: 20rem;
+    width: 90%;
+    margin: 0 auto;
+    border-radius: .8rem;
+    margin-top: 17vh;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 1.4rem;
+
+    position: relative;
+
+    h1 {
+        text-transform: uppercase;
+        letter-spacing: .3rem;
+        font-size: .7rem;
+        color: $primary-green;
+        margin-top: 1rem;
+    }
+
+    q#advice {
+        color: $primary-cyan;
+        font-size: 1.40rem;
+        text-align: center;
+        line-height: 2rem;
+        margin: 2rem 0;
+    }
+
+    .img-pattern {
+        background-image: url("images/pattern-divider-mobile.svg");
+        background-repeat: no-repeat;
+        background-size: contain;
+        background-position: center;
+        width: 100%;
+        height: 1rem;
+    }
+
+    #dice-btn {
+        position: absolute;
+        bottom: -1.8rem;
+        width: 4rem;
+        height: 4rem;
+        border-radius: 2rem;
+        border: none;
+        background-color: $primary-green;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        &:hover {
+            cursor: pointer;
+            box-shadow: 0px 0px 20px $primary-green;
+            
+        }
+    }
+} 
